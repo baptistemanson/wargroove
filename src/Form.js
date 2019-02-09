@@ -68,7 +68,7 @@ export default class Form extends React.Component {
     );
     return (
       <form style={{ width: "100%" }}>
-        <div style={{ maring: 22 }}>
+        <div style={{ margin: 22 }}>
           {"Attacker "}
           <div
             style={{
@@ -109,7 +109,7 @@ export default class Form extends React.Component {
             />
           </div>
         </div>
-        <div>
+        <div style={{ margin: 22 }}>
           {"Defender "}
           <div
             style={{
