@@ -11,10 +11,9 @@ class App extends Component {
             alt="logo"
             src="logo.png"
           />
-          <h1>Damage calculator</h1>
           <Form />
           <div style={{ marginTop: 25, fontSize: 8 }}>
-            Copyright Baptiste Manson
+            Made with Love by Baptiste Manson
           </div>
         </header>
       </div>

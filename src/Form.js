@@ -69,7 +69,7 @@ export default class Form extends React.Component {
     return (
       <form style={{ width: "100%" }}>
         <div style={{ margin: 22 }}>
-          {"Attacker "}
+          <h2>Attacker</h2>
           <div
             style={{
               flexDirection: "row",
@@ -110,7 +110,7 @@ export default class Form extends React.Component {
           </div>
         </div>
         <div style={{ margin: 22 }}>
-          {"Defender "}
+          <h2>Defender</h2>
           <div
             style={{
               flexDirection: "row",
@@ -170,7 +170,7 @@ export default class Form extends React.Component {
             Counter attack Cost: <b>{attackCost.toFixed(0)}</b>
           </div>
           <div style={{ fontSize: 22 }}>
-            Balance Attack: <b>{(attackValue - attackCost).toFixed(0)}</b>
+            Attack Efficiency: <b>{(attackValue - attackCost).toFixed(0)}</b>
           </div>
         </div>
       </form>
